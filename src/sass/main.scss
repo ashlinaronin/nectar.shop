@@ -99,10 +99,8 @@ section.hero {
     margin-bottom: 30px;
     border-radius: 30px;
     box-shadow: 0 0 0 0 rgba($reddish-orange, .5);
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
 
-    animation: pulse 2.5s infinite;
+    animation: pulse 2.5s infinite ease-out;
 
     &:hover {
       animation: none;
@@ -251,17 +249,13 @@ section.selling-points {
 }
 
 
-// borrowed from https://codepen.io/seansean11/pen/dhwzj
-@-webkit-keyframes pulse {
+@keyframes pulse {
   0% {
-    transform: scale(.9);
   }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 50px rgba($reddish-orange, 0);
+  50% {
+    box-shadow: 0 0 0 25px rgba($reddish-orange, 0);
   }
   100% {
-    transform: scale(.9);
     box-shadow: 0 0 0 0 rgba($reddish-orange, 0);
   }
 }
