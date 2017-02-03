@@ -1,5 +1,6 @@
 let flickityCarousel = new Flickity('.testimonials', {
-    cellAlign: 'left',
+    cellAlign: 'center',
     contain: true,
-    autoPlay: true
+    autoPlay: 4000,
+    prevNextButtons: false
 });
