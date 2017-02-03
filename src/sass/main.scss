@@ -229,6 +229,12 @@ section.selling-points {
 
         padding-left: 25px;
         padding-right: 25px;
+
+        text-align: center;
+
+        @media only screen and (min-width: 768px) {
+          text-align: left;
+        }
       }
 
       p + p.attribution {
