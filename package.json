@@ -15,7 +15,7 @@
     "glob": "~4.0.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.0.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^8.0.0",
     "gulp-cache": "^0.4.2",
     "gulp-concat": "^2.6.0",
     "gulp-cssimport": "^5.0.0",
@@ -39,7 +39,7 @@
     "karma-jasmine": "~0.2.1",
     "karma-phantomjs-launcher": "~0.1.2",
     "karma-spec-reporter": "0.0.23",
-    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-babel": "^4.4.0",
     "wiredep": "^2.2.2"
   }
 }
